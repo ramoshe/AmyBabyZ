@@ -19,6 +19,8 @@
 }
 #socials div {
     flex-basis: 26.6667%;
+    width: 100%;
+    text-align: center;
 }
 #socials svg {
     fill: #21AD77;
