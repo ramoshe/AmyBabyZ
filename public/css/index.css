@@ -30,6 +30,8 @@
 #socials svg:hover {
     fill: #FB4994;
     cursor: pointer;
+    -webkit-filter: drop-shadow(0px 0px 20px #c0c0c07d);
+    filter: drop-shadow(0px 0px 20px #c0c0c07d);
 }
 /* .onlyfans svg {
     height: 70px !important;
@@ -42,6 +44,7 @@
 }
 #photo img {
     border-radius: 70px;
+    box-shadow: 0px 0px 69px rgba(192, 192, 192, .29);
 }
 .btnDiv {
     width: 40%;
