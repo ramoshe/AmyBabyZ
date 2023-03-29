@@ -5,7 +5,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 100px;
-    margin-top: 60px;
 }
 #socials {
     width: 40%;
@@ -41,10 +40,6 @@
 #photo {
     width: 40%;
     max-width: 400px;
-}
-#photo img {
-    border-radius: 70px;
-    box-shadow: 0px 0px 69px rgba(192, 192, 192, .29);
 }
 .btnDiv {
     width: 40%;

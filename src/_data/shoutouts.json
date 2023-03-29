@@ -1,14 +1,38 @@
 [
     {
-        "title": "theRamoShop",
-        "link": "https://shop.ramoshe.com",
-        "logo": "shop_favicon-05_cjjceb.png",
-        "description": "Handmade wood burned and resin art, jewelry, and coasters. Designs are infused with positivity, humor, and pride. All items in the shop are made live on stream, check out the site for links and to learn more."
+        "title": "Glytch",
+        "link1": "",
+        "text1": "",
+        "link2": "",
+        "text2": "",
+        "logo": "GLYTCH Energy_Logo_Registered_Vertical.png",
+        "description": ""
     },
     {
-        "title": "IcoTypo",
-        "link": "https://icotypo.com",
-        "logo": "product_logos_IcoTypo_-_favicon_a5uu6n.png",
-        "description": "Shop apparel and accessories designed by theRamoShe. The icon and typography based designs in this shop all use free design elements, assembled in the spirit of simplicity and spreading positivity."
-    }
+		"title": "Trovians",
+		"link1": "https://trovians.com",
+		"text1": "Shop",
+		"link2": "https://trovo.live/team/trovians",
+		"text2": "Trovo",
+		"logo": "TroviansLogo-black_square.png",
+		"description": ""
+	},
+    {
+		"title": "RadiantMoon",
+		"link1": "https://trovo.live/radiantmoon",
+		"text1": "Trovo",
+		"link2": "https://shop.ramoshe.com",
+		"text2": "Shop",
+		"logo": "theRamoShe-portrait.png",
+		"description": ""
+	},
+    {
+		"title": "Nuttzie",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	}
 ]
