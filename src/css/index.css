@@ -17,10 +17,8 @@
     justify-content: center;
     gap: 10%;
 }
-#socials a {
+#socials div {
     flex-basis: 26.6667%;
-    display: flex;
-    justify-content: center;
 }
 #socials svg {
     fill: #21AD77;
