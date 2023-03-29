@@ -54,7 +54,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    row-gap: 40px;
+    row-gap: 60px;
   }
   #socials, .btnDiv {
     margin: 0 auto;
@@ -66,5 +66,6 @@
   #photo {
     order: 4;
     margin: 40px auto 100px;
+    width: 80%;
   }
 }
