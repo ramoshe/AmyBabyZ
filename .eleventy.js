@@ -1,15 +1,22 @@
-module.exports = function (eleventyConfig) {
+const social = require("./src/_includes/components/social");
 
-    eleventyConfig.addPassthroughCopy("./src/css/");
+module.exports = function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy("./src/css/");
 	eleventyConfig.addWatchTarget("./src/css/");
 
 	eleventyConfig.addPassthroughCopy("./src/assets/");
 	eleventyConfig.addWatchTarget("./src/assets/");
 
-    return {
-        dir: {
-            input: "src",
-            output: "public",
-        },
-    };
+	eleventyConfig.addShortcode("social", social);
+
+	return {
+		dir: {
+			input: "src",
+			output: "public",
+		},
+		templateFormats: ["md", "njk", "html"],
+		markdownTemplateEngine: "njk",
+		htmlTemplateEngine: "njk",
+		dataTemplateEngine: "njk",
+	};
 };

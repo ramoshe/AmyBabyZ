@@ -1,17 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AmyBabyZ</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-</head>
-<body>
-    <div id="main">
-        <img src="assets/amyLogo.png" width="300px" />
-        <h1>Coming Soon</h1>
+---
+title: Home
+---
+
+{% extends "base.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+{% endblock %}
+
+{% block main %}
+    <div id="socials">
+        {% for icon in socials %}
+        <a href="{{icon.link}}" class="{{icon.site}}">{% include icon.svg %}</a>
+        {% endfor %}
     </div>
-</body>
-</html>
+    <div id="photo">
+        <img src="assets/amy-art.jpg" />
+    </div>
+    <div id="shoutBtn" class="btnDiv">
+        <a href="/shoutouts" class="btn">SHOUTOUTS</a>
+    </div>
+    <div id="aboutBtn" class="btnDiv">
+        <a href="/about" class="btn">ABOUT ME</a>
+    </div>
+{% endblock %}

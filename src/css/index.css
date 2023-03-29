@@ -1,0 +1,73 @@
+#navigation {
+    display: none;
+}
+#container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    margin-top: 60px;
+}
+#socials {
+    width: 40%;
+    height: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+#socials a {
+    flex-basis: 26.6667%;
+    display: flex;
+    justify-content: center;
+}
+#socials svg {
+    fill: #21AD77;
+    max-width: 70px;
+    max-height: 70px;
+}
+#socials svg:hover {
+    fill: #FB4994;
+    cursor: pointer;
+}
+/* .onlyfans svg {
+    height: 70px !important;
+    width: auto !important;
+    max-width: 200px !important;
+} */
+#photo {
+    width: 40%;
+    max-width: 400px;
+}
+#photo img {
+    border-radius: 70px;
+}
+.btnDiv {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    row-gap: 40px;
+  }
+  #socials, .btnDiv {
+    margin: 0 auto;
+    width: 80%;
+  }
+  #socials {
+    margin-bottom: 40px;
+  }
+  /* #socials a {
+    height: 130px;
+  } */
+  #photo {
+    order: 4;
+    margin: 40px auto 100px;
+  }
+}
