@@ -1,4 +1,4 @@
-const social = require("./src/_includes/components/social");
+const shoutPop = require("./src/_includes/components/shoutPop");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/css/");
@@ -7,7 +7,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/assets/");
 	eleventyConfig.addWatchTarget("./src/assets/");
 
-	eleventyConfig.addShortcode("social", social);
+	eleventyConfig.addPassthroughCopy("./src/js/");
+	eleventyConfig.addWatchTarget("./src/js/");
+
+	eleventyConfig.addShortcode("shoutPop", shoutPop);
 
 	return {
 		dir: {

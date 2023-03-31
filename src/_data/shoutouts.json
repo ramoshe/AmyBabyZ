@@ -1,33 +1,37 @@
 [
     {
-        "title": "Glytch",
-        "link1": "",
-        "text1": "",
-        "link2": "",
-        "text2": "",
-        "logo": "GLYTCH Energy_Logo_Registered_Vertical.png",
-        "description": ""
-    },
+		"title": "Glytch Gaming",
+		"id": "glytch",
+		"link1": "https://glytchenergy.com",
+		"text1": "Glytch Energy",
+		"link2": "",
+		"text2": "",
+		"logo": "GLYTCH Energy_Logo_Registered_Vertical.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	},
     {
 		"title": "Trovians",
+		"id": "trovians",
 		"link1": "https://trovians.com",
 		"text1": "Shop",
 		"link2": "https://trovo.live/team/trovians",
 		"text2": "Trovo",
 		"logo": "TroviansLogo-black_square.png",
-		"description": ""
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n \n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 	},
     {
 		"title": "RadiantMoon",
+		"id": "radiantmoon",
 		"link1": "https://trovo.live/radiantmoon",
 		"text1": "Trovo",
-		"link2": "https://shop.ramoshe.com",
-		"text2": "Shop",
+		"link2": "https://theramoshe.com",
+		"text2": "Site",
 		"logo": "theRamoShe-portrait.png",
 		"description": ""
 	},
     {
 		"title": "Nuttzie",
+		"id": "nuttzie",
 		"link1": "",
 		"text1": "",
 		"link2": "",
