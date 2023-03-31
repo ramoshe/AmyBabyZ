@@ -11,21 +11,42 @@ title: Shoutouts
 
 {% block main %}
     <div id="sponsors">
-        <div><img id="glytchLink" src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" /></div>
-        <div><img id="troviansLink" src="../assets/shoutLogos/TroviansLogo-black_wide.png" /></div>
+        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" /></a>
+        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" /></a>
     </div>
     <div id="comingsoon">
         <img src="../assets/amyLogo.png" width="300px" />
         <h1>More Coming Soon</h1>
     </div>
     <div id="friends">
-    {% for shout in shoutouts %}
-        {% if loop.index > 2 %}
-            <div><img id="{{shout.id}}Link" src="../assets/shoutLogos/{{shout.logo}}" /></div>
-        {% endif %}
-    {% endfor %}
+        {% for shout in shoutouts %}
+            {% if loop.index > 2 %}
+            <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/{{shout.logo}}" /></a>
+            {% endif %}
+        {% endfor %}
     </div>
+
+    <!-- Popup Windows (hidden) -->
     {% for shout in shoutouts %}
         {% shoutPop title=shout.title, id=shout.id, link1=shout.link1, text1=shout.text1, link2=shout.link2, text2=shout.text2, logo=shout.logo, description=shout.description %}
     {% endfor %}
+{% endblock %}
+
+{% block script %}
+    <script>
+        function popupOpen (id) {
+            const popup = document.querySelector('#' + CSS.escape(id) + 'Pop');
+            popup.style.display = "block";
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = "block";
+        }
+        function popupClose () {
+            const popups = document.querySelectorAll('.popup');
+            popups.forEach(pop => {
+                pop.style.display = "none";
+            });
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = "none";
+        }
+    </script>
 {% endblock %}

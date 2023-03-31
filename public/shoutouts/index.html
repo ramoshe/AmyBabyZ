@@ -28,80 +28,104 @@
             <div id="container">
                 
     <div id="sponsors">
-        <div><img id="glytchLink" src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" /></div>
-        <div><img id="troviansLink" src="../assets/shoutLogos/TroviansLogo-black_wide.png" /></div>
+        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" /></a>
+        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" /></a>
     </div>
     <div id="comingsoon">
         <img src="../assets/amyLogo.png" width="300px" />
         <h1>More Coming Soon</h1>
     </div>
     <div id="friends">
-    
         
-    
+            
         
-    
+            
         
-            <div><img id="radiantmoonLink" src="../assets/shoutLogos/theRamoShe-portrait.png" /></div>
+            
+            <a class="popLink" id="radiantmoon" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/theRamoShe-portrait.png" /></a>
+            
         
-    
+            
+            <a class="popLink" id="nuttzie" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/" /></a>
+            
         
-            <div><img id="nuttzieLink" src="../assets/shoutLogos/" /></div>
-        
-    
     </div>
+
+    <!-- Popup Windows (hidden) -->
     
         <div class="popup" id="glytchPop">
-        <div class="pop-close"><img src="../assets/close.svg /></div>
-		<div class="pop-logo"><img src="../assets/shoutLogos/GLYTCH Energy_Logo_Registered_Vertical.png /></div>
-		<div class="pop-content">
-			<h1>Glytch Gaming</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<div class="pop-btns">
-				<a href="https://glytchenergy.com" class="btn">Glytch Energy</a>
-				<a href="" class="btn"></a>
+			<div class="pop-close" onclick="popupClose()">
+				<img src="../assets/close.svg" />
+			</div>
+			<div id="popcont">
+				<div class="pop-logo">
+					<img src="../assets/shoutLogos/GLYTCH Energy_Logo_Registered_Vertical.png" />
+				</div>
+				<div class="pop-content">
+					<h1>Glytch Gaming</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="pop-btns">
+						<a href="https://glytchenergy.com" class="btn">Glytch Energy</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
     
         <div class="popup" id="troviansPop">
-        <div class="pop-close"><img src="../assets/close.svg /></div>
-		<div class="pop-logo"><img src="../assets/shoutLogos/TroviansLogo-black_square.png /></div>
-		<div class="pop-content">
-			<h1>Trovians</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<div class="pop-btns">
-				<a href="https://trovians.com" class="btn">Shop</a>
-				<a href="https://trovo.live/team/trovians" class="btn">Trovo</a>
-			</div>
-		</div>
-	</div>
+            <div class="pop-close" onclick="popupClose()"
+                ><img src="../assets/close.svg"
+            /></div>
+            <div id="popcont">
+                <div class="pop-logo">
+                    <img src="../assets/shoutLogos/TroviansLogo-black_square.png" />
+                </div>
+                <div class="pop-content">
+                    <h1>Trovians</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="pop-btns">
+                        <a href="https://trovians.com" class="btn">Shop</a>
+                        <a href="https://trovo.live/team/trovians" class="btn">Trovo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     
         <div class="popup" id="radiantmoonPop">
-        <div class="pop-close"><img src="../assets/close.svg /></div>
-		<div class="pop-logo"><img src="../assets/shoutLogos/theRamoShe-portrait.png /></div>
-		<div class="pop-content">
-			<h1>RadiantMoon</h1>
-			<p></p>
-			<div class="pop-btns">
-				<a href="https://trovo.live/radiantmoon" class="btn">Trovo</a>
-				<a href="https://theramoshe.com" class="btn">Site</a>
-			</div>
-		</div>
-	</div>
+            <div class="pop-close" onclick="popupClose()"
+                ><img src="../assets/close.svg"
+            /></div>
+            <div id="popcont">
+                <div class="pop-logo">
+                    <img src="../assets/shoutLogos/theRamoShe-portrait.png" />
+                </div>
+                <div class="pop-content">
+                    <h1>RadiantMoon</h1>
+                    <p></p>
+                    <div class="pop-btns">
+                        <a href="https://trovo.live/radiantmoon" class="btn">Trovo</a>
+                        <a href="https://theramoshe.com" class="btn">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     
         <div class="popup" id="nuttziePop">
-        <div class="pop-close"><img src="../assets/close.svg /></div>
-		<div class="pop-logo"><img src="../assets/shoutLogos/ /></div>
-		<div class="pop-content">
-			<h1>Nuttzie</h1>
-			<p></p>
-			<div class="pop-btns">
-				<a href="" class="btn"></a>
-				<a href="" class="btn"></a>
+			<div class="pop-close" onclick="popupClose()">
+				<img src="../assets/close.svg" />
+			</div>
+			<div id="popcont">
+				<div class="pop-logo">
+					<img src="../assets/shoutLogos/" />
+				</div>
+				<div class="pop-content">
+					<h1>Nuttzie</h1>
+					<p></p>
+					<div class="pop-btns">
+						<a href="" class="btn"></a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
     
 
                 
@@ -118,5 +142,22 @@
         </footer>
     </div>
     
+    <script>
+        function popupOpen (id) {
+            const popup = document.querySelector('#' + CSS.escape(id) + 'Pop');
+            popup.style.display = "block";
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = "block";
+        }
+        function popupClose () {
+            const popups = document.querySelectorAll('.popup');
+            popups.forEach(pop => {
+                pop.style.display = "none";
+            });
+            const overlay = document.querySelector('#overlay');
+            overlay.style.display = "none";
+        }
+    </script>
+
 </body>
 </html>
