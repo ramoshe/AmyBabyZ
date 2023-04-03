@@ -11,17 +11,17 @@ title: Shoutouts
 
 {% block main %}
     <div id="sponsors">
-        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" /></a>
-        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" /></a>
+        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" alt="Glytch Logo" /></a>
+        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" alt="Trovians Logo" /></a>
     </div>
     <div id="comingsoon">
-        <img src="../assets/amyLogo.png" width="300px" />
+        <img src="../assets/amyLogo.png" width="300px" alt="AmyBabyZ Logo" />
         <h1>More Coming Soon</h1>
     </div>
     <div id="friends">
         {% for shout in shoutouts %}
             {% if loop.index > 2 %}
-            <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/{{shout.logo}}" /></a>
+            <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/{{shout.logo}}" alt="{{shout.id}} Logo"/></a>
             {% endif %}
         {% endfor %}
     </div>

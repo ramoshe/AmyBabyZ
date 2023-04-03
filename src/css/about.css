@@ -1,6 +1,9 @@
-/* #container {
+#container {
     align-items: stretch;
-} */
+}
+#photo {
+    height: 100%;
+}
 #about {
     background-color: #1B0934;
     margin-left: 60px;
@@ -9,7 +12,7 @@
     box-shadow: 0px 0px 69px rgba(192, 192, 192, .29);
 }
 #about p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1em;
 }
 .label {
