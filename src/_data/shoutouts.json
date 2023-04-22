@@ -2,12 +2,12 @@
     {
 		"title": "Glytch Gaming",
 		"id": "glytch",
-		"link1": "https://glytchenergy.com",
-		"text1": "Glytch Energy",
-		"link2": "https://trovo.live/agency/glytchfam",
-		"text2": "Trovo",
+		"link1": "https://trovo.live/agency/glytchfam",
+		"text1": "Trovo",
+		"link2": "https://glytchenergy.com",
+		"text2": "Shop",
 		"logo": "GLYTCH Energy_Logo_Registered_Vertical.png",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /><br /> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		"description": "Glytch is an esports company with teams across America and Canada, including an agency on Trovo! Click the link to chek out all the members of the team. <br /><br /> They also make Glytch Energy — world class gamer energy drinks made with patented and trademarked ingredients. Several of my firends have codes for 10% off too!"
 	},
     {
 		"title": "Trovians",
@@ -17,7 +17,7 @@
 		"link2": "https://trovo.live/team/trovians",
 		"text2": "Trovo",
 		"logo": "TroviansLogo-black_square.png",
-		"description": "We are a Trovo streaming community with members across the globe, striving to be the best we can be. Creating a place of positivity, pride, happiness, support, success and so much more. With compassionate and understanding souls, not to mention full of comedians! <3 <br /><br /> Check out our website to learn more about us and shop for Trovians merch!"
+		"description": "The Trovo Stream Team that I founded and manage, the Trovians are a community with members across the globe, striving to be the best we can be. We're all about positivity, pride, happiness, support, success, compassion, understanding, all with a dose of comedy! <br /><br /> Check out our awesome website for profiles of each of the Trovian streamers, as well as our shop full of fun Trovians merch!"
 	},
     {
 		"title": "RadiantMoon",
@@ -27,11 +27,81 @@
 		"link2": "https://theramoshe.com",
 		"text2": "Site",
 		"logo": "theRamoShe-portrait.png",
-		"description": "In addition to streaming on Trovo, my girl RadiantMoon (also known as theRamoShe) is the one who buitl this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and shop links, art gallery, and more."
+		"description": "In addition to streaming on Trovo, my girl RadiantMoon (also known as theRamoShe) is the one who built this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and shop links, art gallery, and more."
 	},
     {
 		"title": "Nuttzie",
 		"id": "nuttzie",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "Mr-Lovecraft420",
+		"id": "mrlovecraft420",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "PanXeet",
+		"id": "panxeet",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "GrimCarrey",
+		"id": "grimcarrey",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "Frostlitee",
+		"id": "frostlitee",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "Jeswilliams",
+		"id": "jeswilliams",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "Jeneration95",
+		"id": "jeneration95",
+		"link1": "",
+		"text1": "",
+		"link2": "",
+		"text2": "",
+		"logo": "",
+		"description": ""
+	},
+    {
+		"title": "OhHeyScarlett",
+		"id": "ohheyscarlett",
 		"link1": "",
 		"text1": "",
 		"link2": "",
