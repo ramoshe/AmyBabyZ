@@ -12,7 +12,7 @@ title: Home
 {% block main %}
     <div id="socials">
         {% for icon in socials %}
-        <div><a href="{{icon.link}}" class="{{icon.site}}">{% include icon.svg %}</a></div>
+        <div><a href="{{icon.link}}" class="{{icon.site}}" aria-label="Link to profile on {{icon.site}}">{% include icon.svg %}</a></div>
         {% endfor %}
     </div>
     <div id="photo">
