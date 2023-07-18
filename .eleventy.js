@@ -12,6 +12,8 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addShortcode("shoutPop", shoutPop);
 
+	eleventyConfig.addPassthroughCopy({ "./src/favicon/": "/" });
+
 	return {
 		dir: {
 			input: "src",
