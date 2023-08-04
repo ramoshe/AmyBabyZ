@@ -23,7 +23,7 @@
 }
 #socials svg {
     fill: #21AD77;
-    max-width: 70px;
+    max-width: 100px;
     max-height: 70px;
 }
 #socials svg:hover {
@@ -32,11 +32,6 @@
     -webkit-filter: drop-shadow(0px 0px 20px #c0c0c07d);
     filter: drop-shadow(0px 0px 20px #c0c0c07d);
 }
-/* .onlyfans svg {
-    height: 70px !important;
-    width: auto !important;
-    max-width: 200px !important;
-} */
 #photo {
     width: 40%;
     max-width: 400px;

@@ -1,47 +1,47 @@
 [
 	{
-		"site": "throne",
-		"svg": "socialicons/throne.html",
-		"link": "https://throne.me/u/amybabyz/wishlist"
-	},
-	{
-		"site": "trovo",
+		"site": "Trovo",
 		"svg": "socialicons/trovo.html",
 		"link": "https://trovo.live/s/AmyBabyZ"
 	},
 	{
-		"site": "kick",
+		"site": "Kick",
 		"svg": "socialicons/kick.html",
 		"link": "https://www.kick.com/amybabyz"
 	},
 	{
-		"site": "paypal",
-		"svg": "socialicons/paypal.html",
-		"link": "https://www.paypal.me/TheAmyBabyZ"
-	},
-	{
-		"site": "cashapp",
-		"svg": "socialicons/cashapp.html",
-		"link": "https://cash.app/$TheClutchess101"
-	},
-	{
-		"site": "onlyfans",
-		"svg": "socialicons/onlyfans.html",
-		"link": "https://onlyfans.com/amybabyz"
-	},
-	{
-		"site": "discord",
+		"site": "Discord",
 		"svg": "socialicons/discord.html",
 		"link": "https://discord.gg/pwFnru96xf"
 	},
 	{
-		"site": "snapchat",
+		"site": "Throne",
+		"svg": "socialicons/throne.html",
+		"link": "https://throne.me/u/amybabyz/wishlist"
+	},
+	{
+		"site": "PayPal",
+		"svg": "socialicons/paypal.html",
+		"link": "https://www.paypal.me/TheAmyBabyZ"
+	},
+	{
+		"site": "CashApp",
+		"svg": "socialicons/cashapp.html",
+		"link": "https://cash.app/$TheClutchess101"
+	},
+	{
+		"site": "Snapchat",
 		"svg": "socialicons/snapchat.html",
 		"link": "https://t.snapchat.com/u4O0xXBF"
 	},
 	{
-		"site": "instagram",
+		"site": "Instagram",
 		"svg": "socialicons/instagram.html",
 		"link": "https://www.instagram.com/theclutchess101"
+	},
+	{
+		"site": "OnlyFans",
+		"svg": "socialicons/onlyfans.html",
+		"link": "https://onlyfans.com/amybabyz"
 	}
 ]

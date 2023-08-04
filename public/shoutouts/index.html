@@ -51,8 +51,8 @@
             <div id="container">
                 
     <div id="sponsors">
-        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" alt="Glytch Logo" /></a>
-        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" alt="Trovians Logo" /></a>
+        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" alt="Glytch Logo" data-tippy-content="Glytch Energy" /></a>
+        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" alt="Trovians Logo" data-tippy-content="Trovians" /></a>
     </div>
     <div id="friends">
     
@@ -61,7 +61,15 @@
         
     
         
-        <a class="popLink" id="radiantmoon" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/theRamoShe-portrait.png" alt="radiantmoon Logo"/></a>
+        <a class="popLink" id="radiantmoon" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/theRamoShe-portrait.png" alt="radiantmoon Logo" data-tippy-content="RadiantMoon" /></a>
+        
+    
+        
+        <a class="popLink" id="laurentorres" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/laurentorres.jpg" alt="laurentorres Logo" data-tippy-content="LaurenTorresMusic" /></a>
+        
+    
+        
+        <a class="popLink" id="hellomoonlove" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/hellomoonlove.jpg" alt="hellomoonlove Logo" data-tippy-content="hellomoonlove" /></a>
         
     
     </div>
@@ -125,6 +133,43 @@
 			</div>
 		</div>
     
+        <div class="popup" id="laurentorresPop">
+			<div class="pop-close" onclick="popupClose()">
+				<img src="../assets/close.svg" />
+			</div>
+			<div id="popcont">
+				<div class="pop-logo">
+					<img src="../assets/shoutLogos/laurentorres.jpg" alt="laurentorres Logo" />
+				</div>
+				<div class="pop-content">
+					<h1>LaurenTorresMusic</h1>
+					<p>Los Angeles based musician and one of the most entertaining streamers on Trovo and Kick, she's also a prominent member of the Trovians stream team. You should absolutely check out her music on all your favorite streaming platforms, her videos on YouTube, and her merch shop full of eco-friendly, hand-designed products!</p>
+					<div class="pop-btns">
+						<a href="https://laurentorresmusic.com/" class="btn">Website</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+        <div class="popup" id="hellomoonlovePop">
+			<div class="pop-close" onclick="popupClose()">
+				<img src="../assets/close.svg" />
+			</div>
+			<div id="popcont">
+				<div class="pop-logo">
+					<img src="../assets/shoutLogos/hellomoonlove.jpg" alt="hellomoonlove Logo" />
+				</div>
+				<div class="pop-content">
+					<h1>hellomoonlove</h1>
+					<p>Also known as moon_nuggie, she's just the cutest little thing on stream! She likes to game and play good tunes, and she's a prominent member of the Trovians stream team. Check her out on Kick and Trovo, and support her by shopping her Throne wishlist!</p>
+					<div class="pop-btns">
+						<a href="https://www.kick.com/hellomoonlove" class="btn">Kick</a>
+						<a href="https://throne.com/hellomoonlove" class="btn">Throne</a>
+					</div>
+				</div>
+			</div>
+		</div>
+    
 
                 
             </div>
@@ -155,6 +200,13 @@
             const overlay = document.querySelector('#overlay');
             overlay.style.display = "none";
         }
+    </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+        tippy('[data-tippy-content]', {
+            placement: 'top',
+        });
     </script>
 
 </body>

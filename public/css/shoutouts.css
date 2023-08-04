@@ -17,10 +17,12 @@
 }
 #friends a {
     margin: auto;
+    max-width: 200px;
 }
 #friends img {
-    max-width: 300px;
+    border-radius: 70px;
 }
+
 .popLink:hover {
     -webkit-filter: drop-shadow(0px 0px 20px #c0c0c07d);
     filter: drop-shadow(0px 0px 20px #c0c0c07d);

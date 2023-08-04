@@ -1,5 +1,5 @@
 [
-    {
+	{
 		"title": "Glytch Gaming",
 		"id": "glytch",
 		"link1": "https://trovo.live/agency/glytchfam",
@@ -9,7 +9,7 @@
 		"logo": "GLYTCH Energy_Logo_Registered_Vertical.png",
 		"description": "Glytch is an esports company with teams across America and Canada, including an agency on Trovo! Click the link to chek out all the members of the team. <br /><br /> They also make Glytch Energy — world class gamer energy drinks made with patented and trademarked ingredients. Several of my firends have codes for 10% off too!"
 	},
-    {
+	{
 		"title": "Trovians",
 		"id": "trovians",
 		"link1": "https://trovians.com",
@@ -19,7 +19,7 @@
 		"logo": "TroviansLogo-black_square.png",
 		"description": "The Trovo Stream Team that I founded and manage, the Trovians are a community with members across the globe, striving to be the best we can be. We're all about positivity, pride, happiness, support, success, compassion, understanding, all with a dose of comedy! <br /><br /> Check out our awesome website for profiles of each of the Trovian streamers, as well as our shop full of fun Trovians merch!"
 	},
-    {
+	{
 		"title": "RadiantMoon",
 		"id": "radiantmoon",
 		"link1": "https://trovo.live/radiantmoon",
@@ -28,5 +28,25 @@
 		"text2": "Site",
 		"logo": "theRamoShe-portrait.png",
 		"description": "In addition to streaming on Trovo, my girl RadiantMoon (also known as theRamoShe) is the one who built this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and shop links, art gallery, and more."
+	},
+	{
+		"title": "LaurenTorresMusic",
+		"id": "laurentorres",
+		"link1": "https://laurentorresmusic.com/",
+		"text1": "Website",
+		"link2": "",
+		"text2": "",
+		"logo": "laurentorres.jpg",
+		"description": "Los Angeles based musician and one of the most entertaining streamers on Trovo and Kick, she's also a prominent member of the Trovians stream team. You should absolutely check out her music on all your favorite streaming platforms, her videos on YouTube, and her merch shop full of eco-friendly, hand-designed products!"
+	},
+	{
+		"title": "hellomoonlove",
+		"id": "hellomoonlove",
+		"link1": "https://www.kick.com/hellomoonlove",
+		"text1": "Kick",
+		"link2": "https://throne.com/hellomoonlove",
+		"text2": "Throne",
+		"logo": "hellomoonlove.jpg",
+		"description": "Also known as moon_nuggie, she's just the cutest little thing on stream! She likes to game and play good tunes, and she's a prominent member of the Trovians stream team. Check her out on Kick and Trovo, and support her by shopping her Throne wishlist!"
 	}
 ]
