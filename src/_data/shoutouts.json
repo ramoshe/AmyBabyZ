@@ -22,10 +22,10 @@
 	{
 		"title": "RadiantMoon",
 		"id": "radiantmoon",
-		"link1": "https://trovo.live/radiantmoon",
-		"text1": "Trovo",
-		"link2": "https://theramoshe.com",
-		"text2": "Site",
+		"link1": "https://theramoshe.com",
+		"text1": "Website",
+		"link2": "https://kick.com/radiantmoon",
+		"text2": "Kick",
 		"logo": "theRamoShe-portrait.png",
 		"description": "In addition to streaming on Trovo, my girl RadiantMoon (also known as theRamoShe) is the one who built this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and shop links, art gallery, and more."
 	},
@@ -34,8 +34,8 @@
 		"id": "laurentorres",
 		"link1": "https://laurentorresmusic.com/",
 		"text1": "Website",
-		"link2": "",
-		"text2": "",
+		"link2": "https://shop.laurentorresmusic.com",
+		"text2": "Merch",
 		"logo": "laurentorres.jpg",
 		"description": "Los Angeles based musician and one of the most entertaining streamers on Trovo and Kick, she's also a prominent member of the Trovians stream team. You should absolutely check out her music on all your favorite streaming platforms, her videos on YouTube, and her merch shop full of eco-friendly, hand-designed products!"
 	},
