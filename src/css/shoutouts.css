@@ -15,6 +15,9 @@
     justify-content: space-between;
     margin-top: 60px;
 }
+#friends a {
+    margin: auto;
+}
 #friends img {
     max-width: 300px;
 }
