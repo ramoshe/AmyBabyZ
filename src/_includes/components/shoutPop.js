@@ -14,7 +14,7 @@ function shoutPop({title, id, link1, text1, link2, text2, logo, description}) {
 					<h1>${title}</h1>
 					<p>${description}</p>
 					<div class="pop-btns">
-						<a href="${link1}" class="btn">${text1}</a>
+						<a href="${link1}" class="btn" target="_blank">${text1}</a>
 					</div>
 				</div>
 			</div>
@@ -32,8 +32,8 @@ function shoutPop({title, id, link1, text1, link2, text2, logo, description}) {
 					<h1>${title}</h1>
 					<p>${description}</p>
 					<div class="pop-btns">
-						<a href="${link1}" class="btn">${text1}</a>
-						<a href="${link2}" class="btn">${text2}</a>
+						<a href="${link1}" class="btn" target="_blank">${text1}</a>
+						<a href="${link2}" class="btn" target="_blank">${text2}</a>
 					</div>
 				</div>
 			</div>

@@ -27,7 +27,7 @@
 		"link2": "https://kick.com/radiantmoon",
 		"text2": "Kick",
 		"logo": "theRamoShe-portrait.png",
-		"description": "In addition to streaming on Trovo, my girl RadiantMoon (also known as theRamoShe) is the one who built this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and shop links, art gallery, and more."
+		"description": "In addition to streaming on Trovo and Kick, my girl RadiantMoon (also known as theRamoShe) is the one who built this beautiful website for me! She even makes jewelry and art with wood burning and resin. <br /><br /> Check out her website for all her social and business links, art gallery, portfolio of work, and more."
 	},
 	{
 		"title": "LaurenTorresMusic",
@@ -37,7 +37,17 @@
 		"link2": "https://shop.laurentorresmusic.com",
 		"text2": "Merch",
 		"logo": "laurentorres.jpg",
-		"description": "Los Angeles based musician and one of the most entertaining streamers on Trovo and Kick, she's also a prominent member of the Trovians stream team. You should absolutely check out her music on all your favorite streaming platforms, her videos on YouTube, and her merch shop full of eco-friendly, hand-designed products!"
+		"description": "Los Angeles based musician and one of the most entertaining streamers on Trovo and Kick, she's also a prominent member of the Trovians stream team. <br /><br /> You should absolutely check out her music on all your favorite streaming platforms, her videos on YouTube, and her merch shop full of eco-friendly, hand-designed products!"
+	},
+	{
+		"title": "Bonbomb",
+		"id": "bonbomb",
+		"link1": "https://linktr.ee/bonbomb",
+		"text1": "Links",
+		"link2": "",
+		"text2": "",
+		"logo": "bonbomb.png",
+		"description": "Catch the absolute chillest of vibes with this luscious thicc fire-haired beauty, streaming on Kick and other platforms. She's a gamer, a chatter, a sleeper, a troll hunter, and an all around bad ass. <br /><br /> Get all her links so you can check her out today!"
 	},
 	{
 		"title": "hellomoonlove",
@@ -47,6 +57,6 @@
 		"link2": "https://throne.com/hellomoonlove",
 		"text2": "Throne",
 		"logo": "hellomoonlove.jpg",
-		"description": "Also known as moon_nuggie, she's just the cutest little thing on stream! She likes to game and play good tunes, and she's a prominent member of the Trovians stream team. Check her out on Kick and Trovo, and support her by shopping her Throne wishlist!"
+		"description": "Also known as moon_nuggie, she's just the cutest little thing on stream! She likes to game and play good tunes, and she's a prominent member of the Trovians stream team. <br /><br /> Check her out on Kick and Trovo, and support her by shopping her Throne wishlist!"
 	}
 ]

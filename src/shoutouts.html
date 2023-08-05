@@ -32,17 +32,21 @@ title: Shoutouts
     <script>
         function popupOpen (id) {
             const popup = document.querySelector('#' + CSS.escape(id) + 'Pop');
-            popup.style.display = "block";
+            popup.style.visibility = "visible";
+            popup.style.opacity = 1;
             const overlay = document.querySelector('#overlay');
-            overlay.style.display = "block";
+            overlay.style.visibility = "visible";
+            overlay.style.opacity = 1;
         }
         function popupClose () {
             const popups = document.querySelectorAll('.popup');
             popups.forEach(pop => {
-                pop.style.display = "none";
+                pop.style.visibility = "hidden";
+                pop.style.opacity = 0;
             });
             const overlay = document.querySelector('#overlay');
-            overlay.style.display = "none";
+            overlay.style.visibility = "hidden";
+            overlay.style.opacity = 0;
         }
     </script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
