@@ -19,6 +19,28 @@
     color: #FB4994;
     font-weight: bold;
 }
+#gttitle {
+    margin-bottom: 0 !important;
+}
+#gamertags {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+    width: 100%;
+}
+.gtitem:not(:last-of-type) {
+    border-right: 1px white solid;
+    padding-right: 2em;
+    margin-right: 2em;
+}
+.gtitem p {
+    margin-bottom: 0 !important;
+}
+.gtlabel {
+    font-weight: bold;
+}
+
 @media (max-width: 1000px) {
     #container {
         flex-wrap: wrap;

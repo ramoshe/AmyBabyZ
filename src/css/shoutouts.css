@@ -2,13 +2,8 @@
     flex-direction: column;
     margin-bottom: 7em;
 }
-#sponsors {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#sponsors a {
-    width: 40%;
+#instructions {
+    text-align: center;
 }
 #friends {
     display: flex;

@@ -10,15 +10,12 @@ title: Shoutouts
 {% endblock %}
 
 {% block main %}
-    <div id="sponsors">
-        <a class="popLink" id="glytch" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/GLYTCH-Energy_Logo_Registered_Horizontal221_110px-021.png" alt="Glytch Logo" data-tippy-content="Glytch Energy" /></a>
-        <a class="popLink" id="trovians" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/TroviansLogo-black_wide.png" alt="Trovians Logo" data-tippy-content="Trovians" /></a>
+    <div id="instructions">
+        <p>Check out my fellow content creators and streamers! Click each one to learn more.</p>
     </div>
     <div id="friends">
     {% for shout in shoutouts %}
-        {% if loop.index > 2 %}
         <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/{{shout.logo}}" alt="{{shout.id}} Logo" data-tippy-content="{{shout.title}}" /></a>
-        {% endif %}
     {% endfor %}
     </div>
 
