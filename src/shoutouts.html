@@ -15,7 +15,7 @@ title: Shoutouts
     </div>
     <div id="friends">
     {% for shout in shoutouts %}
-        <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)" href="#"><img src="../assets/shoutLogos/{{shout.logo}}" alt="{{shout.id}} Logo" data-tippy-content="{{shout.title}}" /></a>
+        <a class="popLink" id="{{shout.id}}" onclick="popupOpen(this.id)"><img src="../assets/shoutLogos/{{shout.logo}}" alt="{{shout.id}} Logo" data-tippy-content="{{shout.title}}" /></a>
     {% endfor %}
     </div>
 
